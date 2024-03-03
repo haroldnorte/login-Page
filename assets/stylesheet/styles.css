@@ -8,19 +8,22 @@ body {
   background-image: url("/assets/images/bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  height: 100%;
-  align-content: center;
+  width: 90%;
+  min-width: 420px;
 }
 
 .card {
-  height: 370px;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 400px;
+  height: 480px;
+  width: 420px;
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -85,4 +88,5 @@ input:focus {
 
 .links a {
   margin-left: 4px;
+  color: #ffc312;
 }
